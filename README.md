@@ -7,15 +7,6 @@ Apparatus Required:
 Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
 
-// Verilog Code
-module ripple_carry_adder_4bit (
-    input [3:0] A,      // 4-bit input A
-    input [3:0] B,      // 4-bit input B
-    input Cin,          // Carry input
-    output [3:0] Sum,   // 4-bit Sum output
-    output Cout         // Carry output
-);
-
     reg [3:0] sum_temp;
     reg cout_temp;
 
@@ -42,7 +33,7 @@ module ripple_carry_adder_4bit (
 endmodule
 
 
-// Test bench for Ripple carry adder
+        Test bench for Ripple carry adder
 
 module ripple_carry_adder_4bit_tb;
 
