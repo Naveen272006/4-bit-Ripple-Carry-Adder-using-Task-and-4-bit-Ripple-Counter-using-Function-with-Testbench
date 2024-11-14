@@ -42,7 +42,6 @@ assign Sum = sum_temp;
 
 endmodule
 
-
 TESTBENCH FOR RIPPLE CARRY ADDER:
 
 module ripple_carry_adder_4bit_tb;
