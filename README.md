@@ -8,7 +8,7 @@ Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
 
 CODE FOR RIPPLE CARRY ADDER_4BIT:
-
+'''
 module ripple_carry_adder_4bit (
 input [3:0] A,      // 4-bit input A
 input [3:0] B,      // 4-bit input B
@@ -85,11 +85,12 @@ initial begin
 end
 
 endmodule
+'''
 
 OUTPUT:![ripple carry adder](https://github.com/user-attachments/assets/0bff4061-b81a-4d32-93b5-0e99a698108c)
 
 CODE FOR RIPPLE COUNTER :
-
+'''
 module ripple_counter_4bit (
 input clk,           // Clock signal
 input reset,         // Reset signal
@@ -149,6 +150,7 @@ initial begin
 end
 
 endmodule
+'''
 
 OUTPUT:![RIPPLE COUNTER](https://github.com/user-attachments/assets/617fc4c4-d243-4cfd-baad-87aad59c0254)
 
